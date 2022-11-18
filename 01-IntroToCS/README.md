@@ -154,7 +154,7 @@ Ahora es momento de entender cómo transformar un número binario en un número 
 
 Por ejemplo:
 Supongamos 10101, comenzando de derecha a izquierda, cada 1 o 0 será multiplicado por 2^n en donde n describe la posición en el que se encuentra, siendo el más derecho, la posición 0. El resultado final será la sumatoria de todos ellos.
-
+ 0   1     2       3     4
  1 | 0   | 1     | 0   | 1
 -- | --- | ----- | ----| ---
 2^4| 2^3 |  2^2  | 2^1 | 2^0

@@ -5,7 +5,7 @@ function BinarioADecimal(num) {
   let resultado = 0
   const numero = num.split("").reverse().join("")
   for (let i = 0; i < numero.length; i++) {
-    resultado += Math.pow(2, i) * numero[i]    
+    resultado += Math.pow(2, i) * numero[i]
   }
   return resultado
 }
@@ -19,6 +19,7 @@ function DecimalABinario(num) {
   } while (num >= 1)
   return resultado.join("")
 }
+
 
 
 module.exports = {
